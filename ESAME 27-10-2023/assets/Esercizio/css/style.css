@@ -1,0 +1,121 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    
+         width: 100% ;
+         text-align: center;
+         margin: 0%auto;
+         padding: 2%;
+         font-size: 1.2rem ;
+         inline-size: 1.65;
+                
+}   
+
+
+/*------------------- CONTENITORI GENERALI ------------------- */
+
+
+.STRIP {  
+                         
+    color: rgb(255, 255, 255);
+    padding: 15%;
+    line-height: 1.5;
+    font-family: 'Open Sans';
+    position: relative;
+}
+
+.container {  
+                         
+    color:#393d41 ;         
+    padding: 6%;
+    line-height: 1.5;
+    font-family: 'Open Sans';
+    position: relative;
+
+}
+
+/*------------------- FONT ------------------- */
+
+h1         { 
+    font-family:'Montserrat:ital';
+    font-size: 2.6rem40; 
+    inline-size: 1.5;
+    color: #25a2c3;
+    
+}  
+
+p {
+
+    font-family:'Open Sans';
+    font-size: 1.6rem; 
+    inline-size: 1.5;
+    color: #151616;
+
+}
+
+
+/*------------------- Header ------------------- */
+
+.header {  
+                         
+             padding: 6%;
+             background-color: #000000;
+             line-height: 1.5;
+             position: relative;
+ }
+
+img {       
+    position: relative;
+    width: 45%;
+}
+
+
+/*------------------- BANNER ------------------- */
+
+#sfondo { 
+    background-image: url(assets\Esercizio\images\banner.jpg);
+    background-size: contain;
+    background-color: #d4dee8;
+    padding: 20%;
+    } 
+
+button { background-color:  #f04c2f; font-family: 'Montserrat:ital';}
+
+
+/*------------------- MAIN ------------------- */
+
+
+#red { background-color: red;}
+#white {color: white;}
+
+/*------------------- div immagine ------------------- */
+
+.w3circle {border-radius: 50%;}
+
+/*------------------- DIV  box main ------------------- */
+
+
+#box {  
+         margin: 0%auto;
+         position: relative ;
+         padding: 5%;
+         border: 1px solid #dee1e3;
+
+}
+
+#foto { 
+    
+         position:relative;
+         width: 100%;
+         margin: 0%auto;
+               
+        }
+
+
+/*------------------- FOOTER ------------------- */         
+
+
+#blue {background-color: #25a2c3;}
+
